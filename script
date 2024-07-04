@@ -1,0 +1,81 @@
+// let numero = 1;
+// while (numero <= 10) {
+//     console.log(numero);
+//     numero++;
+// }
+
+
+
+
+
+// let soma = 0;
+// while (true){
+//     let numero = prompt("Digite um número: ");
+//     if (isNaN(numero)){
+//         break;
+//     }
+//     soma += Number(numero);
+// }
+// console.log("A soma dos números é: " + soma)
+
+
+
+
+
+// let randomNumber = 0;
+// let userNumber = 0;
+// let attempts = 0;
+// randomNumber = Math.floor(Math.random() * 10) + 1;
+// while (userNumber != randomNumber){
+//     userNumber = prompt("Digite um número entre 1 e 10: ");
+//     if (userNumber == randomNumber){
+//         console.log("Você acertou!");
+//         break;
+//     }
+//     else if (userNumber > randomNumber){
+//         console.log("Você errou! O número é menor.");
+//     }
+//     else{
+//         console.log("Você errou! O número é maior.");
+//     }
+//     attempts++;
+// }
+// console.log("Você acertou em " + attempts + " tentativas.")
+
+
+ 
+
+// var opcao, vl_saq;
+// var saldo = 0;
+// var min = 0;
+// var max = 0;
+// var deposito = 0;
+
+// do {
+// opcao = parseInt(prompt("Bem-vindo ao Bernal Bank!\n  \nEscolha uma opção:\n1 - Saldo\n2 - Depósito\n3 - Saque\n0 - Sair"));
+    
+// switch (opcao) {
+// case 1:
+
+//     alert("O seu saldo em conta é de : R$ "+saldo+"\n  \nDeseja fazer mais alguma coisa? \nEspere o outro menu.")        
+//     break;
+
+// case 2:
+//     deposito = parseInt(prompt("Quanto você quer depositar?"))
+//         alert("O valor de : R$ "+deposito+" foi depositado com sucesso,")
+//         saldo = saldo + deposito
+//     break;
+
+// case 3:
+//     vl_saq = parseInt(prompt("Qual o valor do saque:"));
+//     if (vl_saq>saldo) {
+//         alert("O seu saldo não é suficiente para esse saque.")
+//     } else {
+//         saldo = saldo - vl_saq;
+//         alert("Saque sendo Processado");
+//         alert("....... Retire da bandeja");
+//         alert("Agradecemos por utilizar os nossos serviços.");
+//         }
+// }
+// } while (opcao != 0);
+  
